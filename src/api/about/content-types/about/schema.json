@@ -4,7 +4,8 @@
   "info": {
     "singularName": "about",
     "pluralName": "abouts",
-    "displayName": "about"
+    "displayName": "about",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -22,6 +23,12 @@
       "relation": "manyToMany",
       "target": "api::service.service",
       "inversedBy": "abouts"
+    },
+    "HeaderDesc": {
+      "type": "text"
+    },
+    "Header": {
+      "type": "string"
     }
   }
 }
