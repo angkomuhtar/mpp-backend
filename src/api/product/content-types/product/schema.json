@@ -25,6 +25,15 @@
       "type": "relation",
       "relation": "manyToMany",
       "target": "api::type.type",
+      "mappedBy": "products"
+    },
+    "desc": {
+      "type": "text"
+    },
+    "product_features": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::product-feature.product-feature",
       "inversedBy": "products"
     }
   }

@@ -4,7 +4,8 @@
   "info": {
     "singularName": "type",
     "pluralName": "types",
-    "displayName": "type"
+    "displayName": "type",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -19,6 +20,34 @@
     },
     "type": {
       "type": "string"
+    },
+    "details": {
+      "type": "text"
+    },
+    "gallery": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "plans": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "features": {
+      "type": "text"
     }
   }
 }
