@@ -48,6 +48,18 @@
     },
     "features": {
       "type": "text"
+    },
+    "mainroom": {
+      "type": "integer"
+    },
+    "bathroom": {
+      "type": "integer"
+    },
+    "building": {
+      "type": "integer"
+    },
+    "land": {
+      "type": "integer"
     }
   }
 }
